@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.DotSettings
+TestResults/
+coverage/
+*.nupkg
+.idea/

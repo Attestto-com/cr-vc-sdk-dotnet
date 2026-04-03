@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Attestto.Open.CRVC</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Attestto Open</Authors>
+    <Company>Attestto Inc.</Company>
+    <Description>SDK for issuing and verifying Verifiable Credentials in the Costa Rica SSI driving ecosystem</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Attestto-com/cr-vc-sdk-dotnet</RepositoryUrl>
+    <PackageTags>verifiable-credentials;ssi;did;costa-rica;mdl;driving-license;json-ld;w3c;iso-18013-5</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSec.Cryptography" Version="24.4.0" />
+  </ItemGroup>
+
+</Project>

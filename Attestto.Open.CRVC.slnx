@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Attestto.Open.CRVC/Attestto.Open.CRVC.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Attestto.Open.CRVC.Tests/Attestto.Open.CRVC.Tests.csproj" />
+  </Folder>
+</Solution>
