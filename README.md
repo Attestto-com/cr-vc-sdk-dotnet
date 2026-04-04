@@ -94,6 +94,10 @@ var result = await verifier.VerifyAsync(vc, new VerifyOptions
 
 JSON-LD schemas: [Attestto-com/cr-vc-schemas](https://github.com/Attestto-com/cr-vc-schemas)
 
+## Ecosystem
+
+Full index: [Attestto-com/attestto-open](https://github.com/Attestto-com/attestto-open)
+
 ## License
 
 Apache 2.0
