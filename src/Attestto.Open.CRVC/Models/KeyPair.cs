@@ -1,9 +1,10 @@
-namespace Attestto.Open.CRVC;
-
-/// <summary>Key pair structure.</summary>
-public sealed class KeyPair
+namespace Attestto.Open.CRVC
 {
-    public required SigningAlgorithm Algorithm { get; init; }
-    public required byte[] PublicKey { get; init; }
-    public required byte[] PrivateKey { get; init; }
+    /// <summary>Key pair structure.</summary>
+    public sealed class KeyPair
+    {
+        public SigningAlgorithm Algorithm { get; set; }
+        public byte[] PublicKey { get; set; }
+        public byte[] PrivateKey { get; set; }
+    }
 }

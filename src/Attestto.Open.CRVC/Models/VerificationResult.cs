@@ -1,18 +1,21 @@
-namespace Attestto.Open.CRVC;
+using System.Collections.Generic;
 
-/// <summary>Verification result.</summary>
-public sealed class VerificationResult
+namespace Attestto.Open.CRVC
 {
-    public required bool Valid { get; init; }
-    public required IReadOnlyList<VerificationCheck> Checks { get; init; }
-    public required IReadOnlyList<string> Errors { get; init; }
-    public required IReadOnlyList<string> Warnings { get; init; }
-}
+    /// <summary>Verification result.</summary>
+    public sealed class VerificationResult
+    {
+        public bool Valid { get; set; }
+        public IReadOnlyList<VerificationCheck> Checks { get; set; }
+        public IReadOnlyList<string> Errors { get; set; }
+        public IReadOnlyList<string> Warnings { get; set; }
+    }
 
-/// <summary>Individual verification check.</summary>
-public sealed class VerificationCheck
-{
-    public required string Check { get; init; }
-    public required bool Passed { get; init; }
-    public string? Message { get; init; }
+    /// <summary>Individual verification check.</summary>
+    public sealed class VerificationCheck
+    {
+        public string Check { get; set; }
+        public bool Passed { get; set; }
+        public string Message { get; set; }
+    }
 }
